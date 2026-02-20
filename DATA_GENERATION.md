@@ -1,7 +1,9 @@
 # Objective
 1. The first step of the project includes generating randomized C++ codes having branches in their Control Flow Graph(CFG) such as loops or conditionals.
-# Concerend File  
-1. The code in the file *training.py* does this job and the final training data is saved in the file *data.csv*
+# Concerned File  
+1. *training.csv*
+# Output File 
+1. *data.csv*
 # Personality based Code Generation
 1. There are 4 personality classes taken into consideration for this project:
    1. **Verbose coder**
