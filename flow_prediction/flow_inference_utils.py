@@ -22,4 +22,5 @@ def predict_decision(input_context: str, model, tokenizer, meta, threshold=0.5):
     seq = tokenizer.texts_to_sequences([input_context])
     padded = pad_sequences(seq, maxlen=meta.get("maxlen", 40), padding="pre")
     prob = float(model.predict(padded, verbose=0)[0, 0])
+
     return {"probability": prob, "decision": "ENTER" if prob >= threshold else "SKIP"}
