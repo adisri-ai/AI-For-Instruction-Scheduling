@@ -197,4 +197,5 @@ def simulate_pipeline_table(instructions, truth=None, pred=None, flush_penalty=2
     df.index.name = "Cycle"
     # Add hazard info column
     df["Events"] = df.index.map(hazard_info).fillna("")
+
     return df, cycle_num - 1, (stalls, flushes)
