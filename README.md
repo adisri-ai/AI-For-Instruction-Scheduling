@@ -15,4 +15,4 @@ The project will be made with the following phases:
 3. **Code Flow Prediction*** :   Predicting the flow of the code using the model in order to perform scheduling accordingly and reducing cycle count.
 4. **Dependency Analaysis**  : Performing dependency analysis of various tasks in order to satisfy all constraints during scheduling.
 5. **Optimizing Cycle Count** : Optimizing the cycle count and comparing with the baseline cycle count of serialized sequence.  
-6. **Frontend**                 : Finally, we create a frontend to take user code as input and return the optimal execution sequence.
+6. **Frontend**                 : Finally, we create a frontend to take user code as input and return the optimal execution sequence.[View the frontend code](app.py)
