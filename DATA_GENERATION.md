@@ -1,9 +1,9 @@
 # Objective
 1. The first step of the project includes generating randomized C++ codes having branches in their Control Flow Graph(CFG) such as loops or conditionals.
-# Concerned File  
+# File Performing this task  
 1. [*training.py*](https://github.com/adisri-ai/AI-For-Instruction-Scheduling/blob/c4e1e9815e4ac4f742d2cdb5182f48b39ac7e9e1/data_generation/training.py)
 # Output File 
-1. *data.csv*
+1. [*data.csv*](https://github.com/adisri-ai/AI-For-Instruction-Scheduling/blob/429bbd39eb6e8856f870fbc0b8c6d4fae018550e/data_generation/data.csv)
 # Personality based Code Generation
 1. There are 4 personality classes taken into consideration for this project:
    1. **Verbose coder**
