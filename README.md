@@ -1,3 +1,4 @@
+Final Project Link is [here](https://ai-for-instruction-scheduling-xfthcdptyp7zas8kcaszeq.streamlit.app/)
 # Project Overview  
 1. This project aims at optimizing the exectuion sequence for various nodes of a given **Control Flow Graph(CFG)** using **LSTM** deep learning model in order to **minimize clock cycles**.
 2. We use personality-based Long Short Term Memory(LSTM) deep learning model for this which is used to identify the patterns in user's multiple codes and classify the user into
